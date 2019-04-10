@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <h1 class="display-3 text-center my-4">Colors & Background</h1>
+        <h1 class="display-3 text-center my-4">List Groups & Badges</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -85,74 +85,79 @@
     </header>
 
     <div class="container">
-        <!--###################START HERE####################-->
+        <!--################START HERE##################-->
 
-        <!-- TEXT COLORS -->
-        <p>Text Primary Color</p>
-        <p>Text Secondary Color</p>
-        <p>Text Success Color</p>
-        <p>Text Info Color</p>
-        <p>Text Warning Color</p>
-        <p>Text Danger Color</p>
-        <p>Text Light Color</p>
-        <p>Text Dark Color</p>
-        <p>Text White Color</p>
-        <p>Text Muted</p>
-        <p>Text Black 50</p>
-        <p>Text White 50</p>
+        <!-- LIST GROUP -->
+        <ul class="list-group mb-5">
+            <li class="list-group-item">My List Item One</li>
+            <li class="list-group-item active">My List Item Two</li>
+            <li class="list-group-item">My List Item Three</li>
+            <li class="list-group-item">My List Item Four</li>
+            <li class="list-group-item">My List Item Five</li>
+        </ul>
 
-        <br>
-        <br>
+        <!-- LIST GROUP WITH LINKS -->
+        <ul class="list-group mb-5">
+            <a class="list-group-item" href="#">My List Item One</a>
+            <a class="list-group-item" href="#">My List Item Two</a>
+            <a class="list-group-item active" href="#">My List Item Three</a>
+            <a class="list-group-item" href="#">My List Item Four</a>
+            <a class="list-group-item" href="#">My List Item Five</a>
+        </ul>
 
-        <!-- LINK COLORS -->
-        <p>
-            <a href="#">Primary link</a>
-        </p>
-        <p>
-            <a href="#">Secondary link</a>
-        </p>
-        <p>
-            <a href="#">Success link</a>
-        </p>
-        <p>
-            <a href="#">Info link</a>
-        </p>
-        <p>
-            <a href="#">Warning link</a>
-        </p>
-        <p>
-            <a href="#">Danger link</a>
-        </p>
-        <p>
-            <a href="#">Light link</a>
-        </p>
-        <p>
-            <a href="#">Dark link</a>
-        </p>
-        <p>
-            <a href="#">Muted link</a>
-        </p>
-        <p>
-            <a href="#">White link</a>
-        </p>
 
-        <br>
-        <br>
+        <!-- CONTEXTUAL CLASSES -->
+        <ul class="list-group mb-5">
+            <li class="list-group-item">Regular List Item</li>
+            <li class="list-group-item list-group-item-primary">Primary List Item</li>
+            <li class="list-group-item list-group-item-secondary">Secondary List Item</li>
+            <li class="list-group-item  list-group-item-success">Success List Item</li>
+            <li class="list-group-item  list-group-item-info">Info List Item</li>
+            <li class="list-group-item  list-group-item-warning">Warning List Item</li>
+            <li class="list-group-item  list-group-item-danger">Danger List Item</li>
+            <li class="list-group-item  list-group-item-light">Light List Item</li>
+            <li class="list-group-item  list-group-item-dark">Dark List Item</li>
+        </ul>
 
-        <!-- BACKGROUND COLORS -->
-        <div>Background Primary Color</div>
-        <div>Background Secondary Color</div>
-        <div>Background Success Color</div>
-        <div>Background Info Color</div>
-        <div>Background Warning Color</div>
-        <div>Background Danger Color</div>
-        <div>Background Light Color</div>
-        <div>Background Dark Color</div>
-        <div>Background White Color</div>
-        <div>Background Transparent</div>
+        <!-- FLUSH LIST GROUP -->
+        <ul class="list-group list-group-flush mb-5">
+            <li class="list-group-item">My List Item One</li>
+            <li class="list-group-item">My List Item Two</li>
+            <li class="list-group-item">My List Item Three</li>
+            <li class="list-group-item active">My List Item Four</li>
+            <li class="list-group-item">My List Item Five</li>
+        </ul>
 
-        <!-- INVISIBLE -->
-        <p>Hello</p>
+        <!-- BADGE -->
+        <ul class="list-group mb-5">
+            <li class="list-group-item">My List Item One</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">My List Item Two
+                <span class="badge badge-primary">30</span>
+            </li>
+            <li class="list-group-item">My List Item Three</li>
+            <li class="list-group-item">My List Item Four</li>
+            <li class="list-group-item">My List Item Five</li>
+        </ul>
+
+        <!-- BREADCRUMB -->
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active">Home</li>
+        </ol>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item active">Users</li>
+        </ol>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Users</a>
+            </li>
+            <li class="breadcrumb-item active">Brad</li>
+        </ol>
 
     </div>
     <!-- ./container -->
